@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modernizr</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="app.js"></script>
+
+</head>
+<body>
+<h2>SVG Fallback with Modernizr & CSS</h2>
+<div class="a"></div>
+<br>
+<h2>SVG Fallback with Modernizr & JS</h2>
+<img src="img/svg-ok.svg" data-png="img/svg-no.png"/>
+<br>
+<h2>svg stroke animation on mouse hover</h2>
+<div class="svg-container">
+    <svg width="202" height="46" xmlns="http://www.w3.org/2000/svg">
+        <rect class="button-outline" ry="5" rx="5" id="button" height="42" width="198" y="1" x="1" stroke="#ffffff" fill="none"/>
+        <div class="text">Hover over me</div>
+    </svg>
+</div>
+</body>
+</html>

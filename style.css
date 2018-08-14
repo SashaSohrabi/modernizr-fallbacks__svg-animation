@@ -1,0 +1,72 @@
+html {
+    background: #f9b389;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-align: center;
+    padding: 3.5em;
+}
+
+body {
+    max-width: 40em;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 1.2em;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .125em;
+    margin: 1em;
+    color: #ffffff;
+}
+
+img {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.no-svg .a {
+    background: url("img/svg-no.png") no-repeat center;
+    background-size: 100px 100px;
+}
+
+.svg .a {
+    background: url("img/svg-ok.svg") no-repeat center;
+}
+
+.svg-container {
+    position:relative;
+    width:200px;
+    height: 44px;
+}
+
+.svg-container .text {
+    position:absolute;
+    top:14px;
+    width:100%;
+    text-align: center;
+    color: #ffffff;
+}
+.button-outline {
+    stroke-dasharray:480px;
+    stroke-dashoffset: 480px;
+    fill: #00cf00;
+    transition: all 0.8s ease-out 0s;
+    stroke-width: 2px;
+}
+
+.svg-container:hover .button-outline {
+    stroke-dasharray:480px;
+    stroke-dashoffset: 0px;
+    fill: #009d00;
+}
+
+
+
